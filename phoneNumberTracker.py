@@ -1,5 +1,6 @@
 import phonenumbers
-from phonenumbers import geocoder, carrier
+from phonenumbers import geocoder
+import folium
 from geopy.geocoders import Nominatim
 import tkinter as tk
 from tkinter import messagebox
